@@ -373,21 +373,10 @@ const ChargifyForm = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-  useEffect(
-    () => {
-      chargify.current.load({type: 'card'});
-      setToken('');
-
-      return () => {
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-        chargify.current.unload();
-      };
-    }, [chargify, 'card']);
-
   return (
     <>
       <Head>
-        <script type="text/javascript" src="https://js.chargify.com/latest/chargify.js"></script>
+        <script type="text/javascript" src="https://js.chargify.test/dist/chargify/chargify.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" />
       </Head>
 

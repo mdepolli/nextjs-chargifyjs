@@ -5,7 +5,7 @@ import Link from 'next/link'
 const MyApp = () => (
   <>
     <Head>
-      <script type="text/javascript" src="https://js.chargify.com/latest/chargify.js"></script>
+      <script type="text/javascript" src="https://js.chargify.test/dist/chargify/chargify.js"></script>
       <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet" />
     </Head>
 

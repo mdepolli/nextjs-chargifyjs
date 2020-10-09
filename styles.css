@@ -1,0 +1,165 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #F2F4F8;
+  overflow: scroll;
+  min-height: 800px;
+  height: 100vh;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+button {
+  padding: 10px;
+  color: #FFF;
+  border-radius: 6px;
+  background: #47C486;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  margin-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.chargify-js-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  width: fit-content;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.chargify-js-content {
+  padding: 20px;
+  border-radius: 10px;
+  background: #FFF;
+  width: 50%;
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.175);
+  margin: 0 auto;
+  min-width: 300px;
+  border-top: 5px solid #439aea;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+#chargify1 {
+  display: flex;
+}
+
+#chargify1 iframe {
+  width: 100% !important;
+}
+
+#chargify2 {
+  display: flex;
+}
+
+#chargify2 iframe {
+  width: 100% !important;
+}
+
+#chargify3 iframe {
+  width: 100% !important;
+}
+
+#chargify4 iframe {
+  width: 100% !important;
+}
+
+#chargify5 iframe {
+  width: 100% !important;
+}
+
+#chargify6 iframe {
+  width: 100% !important;
+}
+
+#chargify7 iframe {
+  width: 100% !important;
+}
+
+#chargify8 iframe {
+  width: 100% !important;
+}
+
+#chargify9 iframe {
+  width: 100% !important;
+}
+
+#chargify10 iframe {
+  width: 100% !important;
+}
+
+#chargify11 iframe {
+  width: 100% !important;
+}
+
+#chargify12 iframe {
+  width: 100% !important;
+}
+
+.cardfront {
+  display: flex;
+  flex-flow: column;
+}
+
+.cardback {
+  display: flex;
+  flex-flow: row;
+}
+
+.cardback div {
+  margin-right: 15px;
+}
+
+.cardback div:last-child {
+  margin-right: 0;
+}
+
+.name {
+  display: flex;
+  flex-flow: row;
+}
+
+.name div {
+  margin-right: 15px;
+  width: 100%;
+}
+
+.name div:last-child {
+  margin-right: 0;
+  width: 100%;
+}
+
+.address3 {
+  display: flex;
+  flex-flow: row;
+}
+
+.address3 div {
+  margin-right: 15px;
+  width: 100%;
+}
+
+.address3 div:last-child {
+  margin-right: 0;
+  width: 100%;
+}
+.address4 {
+  display: flex;
+  flex-flow: row;
+}
+
+.address4 div {
+  margin-right: 15px;
+  width: 100%;
+}
+
+.address4 div:last-child {
+  margin-right: 0;
+  width: 100%;
+}
